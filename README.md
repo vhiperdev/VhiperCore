@@ -92,8 +92,7 @@ PHP é usado para executar o portal de registro de conta e para se comunicar com
 - Ant-Farming		[Sistema para identificar e banir quem tente farma kill- avisos na tela dos GMS..]
 - Dobro XP	    	[Sistema que dobra o XP aos finais de semana.]
 - Nascer Sem roupa    	[Sistema para remover todos os itens ao entrar no game - opcional para serve PVP]
-
-
+- Arena Case 		[Sistema com milhares de transmog aleatório dentro de uma caixa, cada caixa que você usa dropa um item para transmog]
 
 ## Repack ainda em fase de atualização, muitos scripts e novidades seram adicionadas no decorrer do tempo.
 
