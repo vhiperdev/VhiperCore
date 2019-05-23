@@ -3,7 +3,7 @@
 #### <p align="center"> World of Warcraft 3.3.5a repack por VhiperDEV | [GitHub](https://github.com/vhiperdev) | [Website](https://sites.google.com/view/wowemuladores)</p>
 
 
-# Bem vindo ao Projeto V H I P E R - C O R E.
+# Bem vindo ao Projeto V H I P E R - C O R E
 
 ## INTRODUÇÃO
 
@@ -47,7 +47,7 @@ PHP é usado para executar o portal de registro de conta e para se comunicar com
 
 # Scripts Custom:
 
-- NPC Template 	    	190000 - Em desenvolvimento.
+- NPC Template 	    	 190000
 - NPC 3v3 Soloqueue   	190001
 - Npc Top Arena	    	190002
 - NPC BeastMaster     	190003
