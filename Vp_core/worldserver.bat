@@ -1,2 +1,0 @@
-worldserver.exe
-pause
