@@ -3,134 +3,154 @@
 #### <p align="center"> World of Warcraft 3.3.5a repack por VhiperDEV | [GitHub](https://github.com/vhiperdev) | [Website](https://sites.google.com/view/wowemuladores)</p>
 
 
-# Bem vindo ao Projeto V H I P E R - C O R E.
+# Welcome to the VhiperCore - Project
 
-## INTRODUÇÃO
+## INTRODUCTION
 
-- VhiperCore é um servidor World of Warcraft v3.3.5a, este pacote inclui versões atualizadas dos módulos, SQL, ferramentas
+- VhiperCore is a World of Warcraft v3.3.5a server, this package includes updated versions of modules, SQL, tools.
 
-- Esse projeto está totalmente adpatável para ser usado como servidores em todas as modalidades:
+- This project is totally adaptable to be used as servers in all modalities:
 
 - BlizzLike - Funserver - Instant 80 - Medium Edit - HardEdit - FullPvP - Tournament
 
-- Todas as mecânicas do núcleo em si tem total funcionabilidade:
+- All the mechanics of the core itself have full functionality:
 
-- Raids/Dungeons/Quest's/Pets/Mecânicas/Spells/Status/Resiliênse entre outros.
+- Raids / Dungeons / Quest's / Pets / Mechanics / Spells / Status / Resiliênse among others.
 
-- Este pacote é lançado sem suporte oficial. Todos os erros devem ser relatadas no [**Github**](https://github.com/vhiperdev/VhiperCore/issues) ou Discord: Vhiper#7085
+- This package is released without official support. All errors should be reported in [**Github**](https://github.com/vhiperdev/VhiperCore/issues) or Discord: Vhiper#7085
 
-- Essa é a versão PREMIUM [limitado somente para 20 Jogadores] se passar o "worldserver.exe" desliga.
+- This is the PREMIUM version [limited to only 25 Players] if pass "worldserver.exe" shuts off.
 
-- Caso você tenha gostado do nosso trabalho e esteja enteressado entre em contato conosco.
+- If you have enjoyed our work and are interested please contact us.
 
 - Discord: Vhiper#7085
 
 ## DOWNLOAD
 
-- O Download não inclue os mapas, você pode utilizar os mapas da AzerothCore Link abaixo:
+- The download does not include the maps, you can use the maps of AzerothCore Link below:
 
-- **VhiperCore Repack** _(Lançamento v2019.05.22)_
+- **VhiperCore Repack** _(Release v2019.05.22)_
     - [(Repack)](https://rebrand.ly/vhipercore_project)
 	- [(Maps)](https://rebrand.ly/vhipercore_mapas)
   
 
 ## Apache 2.2.17 
-Web Server com a página de registro.
+Web Server with the registration page.
 
 ## MySQL 5.6.39
-Mysql é o macanismo do de banco de dados que contém todo os dados do jogo.
+Mysql is the macanismo of the database that contains all the data of the game.
 
 ## PHP 5.3.5
-PHP é usado para executar o portal de registro de conta e para se comunicar com o servidor do mundo.
+PHP is used to run the account registration portal and to communicate with the world server.
 
 # Mecanismo Eluna LUA
 
 # Scripts Custom:
 
-- NPC Template 	    	190000 - Em desenvolvimento.
+- NPC Template 	    	190000
 - NPC 3v3 Soloqueue   	190001
-- Npc Top Arena	    	190002
+- NPC Top Arena	    	190002
 - NPC BeastMaster     	190003
 - NPC Customize Char  	190004
-- NPC Enchanter 	    190005
-- Npc Montarias	    	190006
-- Npc Professions     	190007
-- Npc Titles por Kill 	190008
-- Npc Master trainer  	190009
-- Npc Transmog por Id 	190010
-- Npc Utilidades      	190011
-- Npc Transmog  	    190012
-- Npc Set Transmog    	190013
-- Npc Arena Spectator 	190014
-- Npc General Goods		190015
-- Npc Top Arena 		190016
-- Npc 1v1 Arena Solo	190017
-- Npc Relentles Gear  	190018
-- Npc Wrathfull Gear	190019
+- NPC Enchanter 	190005
+- NPC Mounts	    	190006
+- NPC Professions     	190007
+- NPC Titles by Kill 	190008
+- NPC Master trainer  	190009
+- NPC Transmog by Id 	190010
+- NPC Utilities      	190011
+- NPC Transmog  	190012
+- NPC Set Transmog    	190013
+- NPC Arena Spectator 	190014
+- NPC General Goods	190015
+- NPC Top Arena 	190016
+- NPC 1v1 Arena Solo	190017
+- NPC Relentles Gear  	190018
+- NPC Wrathfull Gear	190019
 
-## Principais modificações:
+## Main modifications:
 
-- Login Announce	[Anúncia quando um jogador entra no game e sua facção]
-- Ant-Hacker 	    	[Detector de hackers Passivo/Avisa aos GMS.]
-- Item reload 	    	[Não será necessário da restart no serve ao adicionar editar um item]
-- Duel Reset 	    	[Reseta cooldows ao final dos duelos]
-- Individual XP 	[modifique seu XP, sistema bom para serve Blizzlike]
-- Auto-Trainer LevelUP	[Skills são adicionada automáticamente ao upar, sistema para Blizzlike]
-- PVP Kill Announcer  	[Anúncia as Mortes do Player/Player]
-- Starting Guild 	[Inicie no game dentro de uma Guild]
-- AutoBalance     	[Sistema para balancear Status em Raids/dungeons/etcs]
-- Sistema por Tempo   	[Ganhe itens por tempo jogado no game item ID = 49926 lOVEN TOKEN]
-- KillStreak 	    	[Anúncio de sequências por Kill]
-- Sistema BG Reward  	[Em todas as Battlegrounds dropa as Marks específica de cada BG]
-- Cross-faction BG    	[Sistema que balanceia jogadores dentro de uma BG para deixar ambos os lados iguais]
-- 3v3 Soloqueue  	[Sistema de Arena Random sem precisar está em grupo, basta joinar e aguardar dois grupos de 3 jogadores Melee-Cast-Healer]
-- SpellRegulator 	[Sistema para regular as porcentagens das spells, caso necessário]
-- Comando .duel		[Não poderá usar em combat/dentro de BG/Arena/Voando etcs.]
-- Comando .shop 	[Não poderá usar em combat/dentro de BG/Arena/Voando etcs.]
-- Comando .chat       	[Sistema de Chat - opcional Ambas facção. Não poderá usar em combat/dentro de BG/Arena/Voando etcs.]
-- Ant-Divulgação 	[Sistema para bloquear palavras espécificas como sites etcs.]
-- Ant-Farming		[Sistema para identificar e banir quem tente farma kill- avisos na tela dos GMS..]
-- Dobro XP	    	[Sistema que dobra o XP aos finais de semana.]
-- Nascer Sem roupa    	[Sistema para remover todos os itens ao entrar no game - opcional para serve PVP]
-- Arena Case 		[Sistema com milhares de transmog aleatório dentro de uma caixa, cada caixa que você usa dropa um item para transmog]
+- MultiVendor in C++ 
+- MultiVendor in Lựa Engineer
 
-## Repack ainda em fase de atualização, muitos scripts e novidades seram adicionadas no decorrer do tempo.
+Multivendor is a core modification which allows the player to access multiple vendor views from a single NPC.
+Using this method you can create unlimited amount of vendor views.
+
+The coremodification allows the creation of multiple vendors through the default database gossip tables as well as through C++.
+You can also mix any other gossip options with the multivendor gossip options.
+The item lists for the vendors are stored in _NPC_vendor_ as usual.
+
+- Login Announce
+**Announced when a player enters the game and his faction**
+- Ant-Hacker 	    		
+**Passive Hacker Detector / Tells MSG**
+- Item reload 	    		
+**No need to restart does not fit when adding edit an item**
+- Duel Reset 	    		
+**Resets cooldows to end of duels**
+- Individual XP 		
+**Modify your XP, good system to serve Blizzlike**
+- Auto-Trainer LevelUP		
+**Skills are added automatically to the Up, system for Blizzlike**
+- PVP Kill Announcer  		
+**Announced Player / Player Deaths**
+- Starting Guild 		
+**Start in game within Guild**
+- AutoBalance 			
+**System to balance Status in Raids / dungeons / etcs**
+- Time System 			
+**Win items for time played in game item ID = 49926 Loven Token**
+- KillStreak 			
+**Kill Announcement**
+- BG Reward System 		
+**In all Battlegrounds drop the Marks specific to each BG**
+- Cross-faction BG 		
+**System balancing players within a BG to leave both sides equal**
+- 3v3 SoloQueue 		
+**Random Arena System without needing to be in a group, just join and wait for two groups of 3 players Melee-Cast-Healer**
+- SpellRegulator 		
+**System to regulate the percentages of spells, if necessary**
+- .duel command 		
+**Can not use in combat / within BG / Arena / Flying.**
+- .shop command 		
+**Can not use in combat / within BG / Arena / Flying.**
+- .chat command 		
+**Chat system - optional Both faction. You may not use in combat / within BG / Arena / Flying etcs.**
+- Anti-Disclosure 		
+**System to block specific words like sites etc.**
+- Ant-Farming 			
+**System to identify and ban anyone who tries to kill medicaments - warnings on the GMS screen**
+- Double XP 			
+**System doubling XP at weekends.**
+- Undressed			
+**System to remove all items upon entering the game - optional to serve PVP**
+- Arena Case 			
+**System with thousands of random transmog within a box, each box you use drops an item to transmog**
+
+## Repack is still being updated, many scripts and news will be added over time.
 
 
 - Repack
 - Server
 - Apache
 - httpdocs
-- Página de Registo Site, Ligue o Apache antes :: http://localhost ou http://127.0.0.1
+- Site Registration Page, Call Apache before :: http://localhost or http://127.0.0.1
 
 - Core
 - C++
 - lua_scripts
 - LUA scripts for ELUNA
 
-## Gerenciador de Banco de Dados:
+## Database Manager:
 - Navicat
 - HeidSql
 - SqlYog
 
 
-# CRÉDITOS
+# CREDITS
 - VhiperDEV
 
-Créditos Adicionais 
-Blizzard Entertainment 
-TrinityCore 
-SunwellCore 
-AzerothCore 
-AzerothCore Discord 
-EMUDevs 
-AC-Web 
-ModCraft.io 
-OwnedCore 
-OregonCore 
-Wowhead.com 
-AoWoW 
-Mais créditos são citados nas fontes
+Additional Credits Blizzard Entertainment TrinityCore SunwellCore AzerothCore AzerothCore Discord EMUDevs AC-Web ModCraft.io OwnedCore OregonCore Wowhead.com AoWoW More credits are cited in sources.
 
-# LICENÇA
-Este código e conteúdo são liberados sob a GNU AGPL v3.
+# LICENSE
+This code and content are released under GNU AGPL v3.
