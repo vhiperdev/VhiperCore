@@ -27,12 +27,10 @@
 
 ## DOWNLOAD
 
-- The download does not include the maps, you can use the maps of AzerothCore Link below:
+- The download include the with MySQL - Apache and Database and Maps -:
 
-- **VhiperCore Repack** _(Release v2019.05.22)_
-    - [(Repack)](https://rebrand.ly/vhipercore_project)
-	- [(Maps)](https://rebrand.ly/vhipercore_mapas)
-  
+- **VhiperCore Repack** _(Release v2019.09.30)_
+    - [(Repack)](https://tinyurl.com/yy2gjsq9)
 
 ## Apache 2.2.17 
 Web Server with the registration page.
@@ -47,29 +45,31 @@ PHP is used to run the account registration portal and to communicate with the w
 
 # Scripts Custom:
 
-- NPC Template 	    	190000
-- NPC 3v3 Soloqueue   	190001
+- NPC 3v3 Soloqueue     190000
+- NPC AutoEquipe      	190001
 - NPC Top Arena	    	190002
 - NPC BeastMaster     	190003
-- NPC Customize Char  	190004
-- NPC Enchanter 	190005
+- NPC Customize       	190004
+- NPC Enchanter 	    190005
 - NPC Mounts	    	190006
 - NPC Professions     	190007
 - NPC Titles by Kill 	190008
 - NPC Master trainer  	190009
 - NPC Transmog by Id 	190010
 - NPC Utilities      	190011
-- NPC Transmog  	190012
-- NPC Set Transmog    	190013
+- NPC Transmog  	    190012
+- NPC TransmogVendor    190013
 - NPC Arena Spectator 	190014
-- NPC General Goods	190015
-- NPC Top Arena 	190016
+- NPC General Goods	    190015
 - NPC 1v1 Arena Solo	190017
 - NPC Relentles Gear  	190018
 - NPC Wrathfull Gear	190019
+- NPC Transmog Sets 	190020
+- NPC Npc Buffs     	190021
 
 ## Main modifications:
 
+- Implemented Mall Simple
 - MultiVendor in C++ 
 - MultiVendor in Lựa Engineer
 
@@ -82,10 +82,14 @@ The item lists for the vendors are stored in _NPC_vendor_ as usual.
 
 - Login Announce
 **Announced when a player enters the game and his faction**
+- DkZone
+**Changed to Class DK leave the zone without doing Quest's**
+- item level UP 80
+**Every character born with 1 item when using is Instant 80**
+- item level UP 80
+**Glyphs and Enchant now cast instant**
 - Ant-Hacker 	    		
 **Passive Hacker Detector / Tells MSG**
-- Item reload 	    		
-**No need to restart does not fit when adding edit an item**
 - Duel Reset 	    		
 **Resets cooldows to end of duels**
 - Individual XP 		
@@ -102,18 +106,14 @@ The item lists for the vendors are stored in _NPC_vendor_ as usual.
 **Win items for time played in game item ID = 49926 Loven Token**
 - KillStreak 			
 **Kill Announcement**
-- BG Reward System 		
-**In all Battlegrounds drop the Marks specific to each BG**
+- Arena Reward 		
+**when a team wins battles they get freebies**
 - Cross-faction BG 		
 **System balancing players within a BG to leave both sides equal**
 - 3v3 SoloQueue 		
 **Random Arena System without needing to be in a group, just join and wait for two groups of 3 players Melee-Cast-Healer**
 - SpellRegulator 		
 **System to regulate the percentages of spells, if necessary**
-- .duel command 		
-**Can not use in combat / within BG / Arena / Flying.**
-- .shop command 		
-**Can not use in combat / within BG / Arena / Flying.**
 - .chat command 		
 **Chat system - optional Both faction. You may not use in combat / within BG / Arena / Flying etcs.**
 - Anti-Disclosure 		
@@ -126,6 +126,19 @@ The item lists for the vendors are stored in _NPC_vendor_ as usual.
 **System to remove all items upon entering the game - optional to serve PVP**
 - Arena Case 			
 **System with thousands of random transmog within a box, each box you use drops an item to transmog**
+- Dementia **After 10 minutes inside the arena, damage and healing will progressively increase by the minute from now. This is done in case of a tie for this arena**
+- BG Announcer 
+**Announce statistics for each battleground completed**
+- Arena Announcer 
+**Announce statistics for each Arenas completed**
+- BG Announcer 
+**All Battlegrounds starts in 30 seconds**
+- Desert BG 
+**Changed to 5 minutes instead of 15**
+- System Time 
+**time gain online**
+- TransmogVendor 6.1  
+**System to change the look of your outfit Thousands of items to transmog in just 1 NPC No items in your bag**
 
 ## Repack is still being updated, many scripts and news will be added over time.
 
